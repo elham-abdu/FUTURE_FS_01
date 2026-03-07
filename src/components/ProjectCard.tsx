@@ -2,9 +2,11 @@ type ProjectProps = {
   title: string
   description: string
   tech: string[]
+  github?: string
+  demo?: string
 }
 
-function ProjectCard({ title, description, tech }: ProjectProps) {
+function ProjectCard({ title, description, tech, github, demo }: ProjectProps) {
   return (
     <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-purple-500 transition">
 
@@ -28,13 +30,27 @@ function ProjectCard({ title, description, tech }: ProjectProps) {
       </div>
 
       <div className="flex gap-4">
-        <button className="text-purple-400 hover:text-purple-300">
-          GitHub
-        </button>
 
-        <button className="text-gray-300 hover:text-white">
-          Live Demo
-        </button>
+        {github && (
+          <a
+            href={github}
+            target="_blank"
+            className="text-purple-400 hover:text-purple-300"
+          >
+            GitHub
+          </a>
+        )}
+
+        {demo && (
+          <a
+            href={demo}
+            target="_blank"
+            className="text-gray-300 hover:text-white"
+          >
+            Live Demo
+          </a>
+        )}
+
       </div>
 
     </div>

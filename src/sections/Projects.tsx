@@ -13,19 +13,22 @@ function Projects() {
         <ProjectCard
           title="Cyberbully Prevention Platform"
           description="A system designed to help detect and prevent cyberbullying through reporting tools and community awareness."
-          tech={["React", "Node.js", "MongoDB"]}
+          tech={["React", "Go", "Postgres"]}
+          github="https://github.com/elham-abdu/Cyberbullyprevention"
         />
 
         <ProjectCard
           title="Help Ethiopia Platform"
           description="A platform connecting volunteers, donors, and communities to support social initiatives across Ethiopia."
           tech={["React", "Tailwind", "API"]}
+          demo="https://app.helpethiopia.org.et/"
         />
 
         <ProjectCard
           title="All Booking System UI"
           description="A multi-service booking interface supporting flight, hotel, and cab reservations with a clean user experience."
           tech={["HTML", "CSS", "JavaScript"]}
+          github="https://github.com/elham-abdu/Dallol-Book"
         />
 
       </div>
