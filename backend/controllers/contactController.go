@@ -13,7 +13,7 @@ func SubmitContact(c *gin.Context) {
         return
     }
 
-    // For now, just log
+    // For now, just log the message to the console
     println("Contact Message:", contact.Name, contact.Email, contact.Message)
 
     c.JSON(http.StatusOK, gin.H{"status": "Message received"})
