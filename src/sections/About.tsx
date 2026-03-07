@@ -29,8 +29,8 @@ function About() {
         <div className="bg-gray-900 p-4 rounded-lg text-center">Go</div>
 
         <div className="bg-gray-900 p-4 rounded-lg text-center">Node.js</div>
-        <div className="bg-gray-900 p-4 rounded-lg text-center">MongoDB</div>
-        <div className="bg-gray-900 p-4 rounded-lg text-center">Git</div>
+        <div className="bg-gray-900 p-4 rounded-lg text-center">PostgreSQL</div>
+        <div className="bg-gray-900 p-4 rounded-lg text-center">GitHub</div>
         <div className="bg-gray-900 p-4 rounded-lg text-center">REST APIs</div>
 
       </div>
