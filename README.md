@@ -1,2 +1,2 @@
 # portfolio 
-a responsive portfolio using React and go 
+my responsive portfolio using React and go 
